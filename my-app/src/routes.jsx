@@ -8,5 +8,7 @@ import {
 import { Hello } from './hello-world/hello-world';
 
 export const routes = (
-    <BrowserRouter></BrowserRouter>
+    <BrowserRouter>
+        <Route key="hello" path="/" component={Hello} />
+    </BrowserRouter>
 );
